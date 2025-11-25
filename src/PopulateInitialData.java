@@ -184,23 +184,23 @@ public final class PopulateInitialData {
         banco.transferir(cuenta1_cliente1_ars.getId(), cuenta1_institucion1_ars.getId(),
                 15_000f, "Pago proveedor local");
 
-        // 4) Transferencia entre diferentes monedas (USD → BRL)
+        // 4) Transferencia entre diferentes monedas (USD -> BRL)
         banco.transferir(cuenta2_cliente1_usd.getId(), cuenta1_cliente3_brl.getId(),
                 100f, "Transferencia internacional USD→BRL");
 
-        // 5) Pago de servicio (recarga móvil) desde cli1 ARS
+        // 5) Pago de servicio desde client1 ARS
         banco.pagarServicio(cuenta1_cliente1_ars.getId(), servMovil.getId(),
                 2_000f, "Recarga celular");
 
-        // 6) Pago de servicio (luz) desde cli2 ARS
+        // 6) Pago de servicio (luz) desde client2 ARS
         banco.pagarServicio(cuenta1_cliente2_ars.getId(), servLuz.getId(),
                 3_500f, "Pago factura luz");
 
-        // 7) Transferencia empresa→empresa
+        // 7) Transferencia empresa -> empresa
         banco.transferir(cuenta1_institucion1_ars.getId(), cuenta1_inst2_ars.getId(),
                 20_000f, "Ajuste entre cuentas empresas");
 
-        // 8) Opcional: pago de agua desde cli3 BRL (con conversión)
+        // 8) Pago de agua desde client3 BRL (con conversión)
         banco.pagarServicio(cuenta1_cliente3_brl.getId(), servAgua.getId(),
                 500f, "Pago servicio de agua");
     }

@@ -34,7 +34,7 @@ public class Prestamo extends Cuenta {
     public float getPrestamoTasa() { return prestamoTasa; }
     public void setPrestamoTasa(float prestamoTasa) { this.prestamoTasa = prestamoTasa; }
 
-    /** Interés total aproximado simple: capital * tasa * días / 365 */
+    // Interés total aproximado simple: capital * tasa * días / 365 
     public float calcularInteresTotal() {
         return prestamoMonto * prestamoTasa * prestamoDays / 365f;
     }
