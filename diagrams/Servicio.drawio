@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="28.2.3">
+  <diagram name="Servicio" id="Servicio-Page">
+    <mxGraphModel dx="1053" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Título -->
+        <mxCell id="S-1" value="Servicio (extends Cuenta)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="40" width="320" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Constantes + Atributos -->
+        <mxCell id="S-2"
+          value="// Constantes&lt;br&gt;+TIPO_SERVICIO_PARTICULAR: int = 10&lt;br&gt;+TIPO_SERVICIO_ONE_TIME: int = 11&lt;br&gt;+TIPO_SERVICIO_RERCORRIDO: int = 12&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-servicio_nombre: String"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="70" width="320" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- Constructores -->
+        <mxCell id="S-3"
+          value="// Constructores&lt;br&gt;+Servicio(id: int, usuario: Usuario, tipo: int, servicio_nombre: String, notas: String, currency: Currency)"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="200" width="320" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Getters y Setters -->
+        <mxCell id="S-4"
+          value="// Getters y Setters&lt;br&gt;+getServicio_nombre(): String&lt;br&gt;+setServicio_nombre(servicio_nombre: String): void"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="270" width="320" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Métodos -->
+        <mxCell id="S-5"
+          value="// Métodos&lt;br&gt;+toString(): String"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="360" width="320" height="60" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

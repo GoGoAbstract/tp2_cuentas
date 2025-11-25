@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="28.2.8">
+  <diagram name="Banco" id="Banco-Page">
+    <mxGraphModel dx="1585" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Título -->
+        <mxCell id="B-1" value="Banco" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="480" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Atributos -->
+        <mxCell id="B-2"
+          value="// Atributos&lt;br&gt;-usuarios: Map&lt;Integer, Usuario&gt;&lt;br&gt;-cuentas: Map&lt;Integer, Cuenta&gt;&lt;br&gt;-monedas: Map&lt;Integer, Currency&gt;&lt;br&gt;-transacciones: List&lt;Transaccion&gt;&lt;br&gt;-nextCuentaId: int&lt;br&gt;-nextTransaccionId: int"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="70" width="480" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Constructores -->
+        <mxCell id="B-3"
+          value="// Constructores&lt;br&gt;+Banco()"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Métodos - Usuarios -->
+        <mxCell id="B-4"
+          value="// Métodos - Usuarios&lt;br&gt;+crearUsuario(dni: int, tipo: int, nombre: String, apellido: String, password: String, notas: String): Usuario&lt;br&gt;+eliminarUsuario(dni: int): boolean&lt;br&gt;+getUsuario(dni: int): Usuario&lt;br&gt;+getUsuarios(): Collection&lt;Usuario&gt;&lt;br&gt;+modificarUsuario(dni: int, nuevoTipo: Integer, nuevoNombre: String, nuevoApellido: String, nuevoPassword: String, nuevasNotas: String): boolean&lt;br&gt;+autenticar(dni: int, password: String): Usuario"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="480" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Métodos - Monedas -->
+        <mxCell id="B-5"
+          value="// Métodos - Monedas&lt;br&gt;+crearCurrency(currencyId: int, currentRate: float, nombre: String, notas: String): Currency&lt;br&gt;+eliminarCurrency(currencyId: int): boolean&lt;br&gt;+modificarCurrency(currencyId: int, nuevaTasa: Float, nuevasNotas: String): boolean&lt;br&gt;+getCurrency(currencyId: int): Currency&lt;br&gt;+getMonedas(): Collection&lt;Currency&gt;"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="480" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Métodos - Cuentas -->
+        <mxCell id="B-6"
+          value="// Métodos - Cuentas&lt;br&gt;+crearCuenta(dni: int, tipo: int, saldoInicial: float, notas: String, currencyId: int): Cuenta&lt;br&gt;+eliminarCuenta(cuentaId: int): boolean&lt;br&gt;+getCuenta(cuentaId: int): Cuenta&lt;br&gt;+getCuentasPorUsuario(dni: int): List&lt;Cuenta&gt;&lt;br&gt;+getTodasLasCuentas(): Collection&lt;Cuenta&gt;&lt;br&gt;+modificarCuenta(cuentaId: int, nuevoTipo: Integer, nuevasNotas: String): boolean"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="480" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Métodos - Préstamos / Servicios / Inversiones -->
+        <mxCell id="B-7"
+          value="// Métodos - Préstamos / Servicios / Inversiones&lt;br&gt;+crearPrestamo(dni: int, tipoPrestamo: int, monto: float, dias: int, tasaAnual: float, notas: String, currencyId: int): Prestamo&lt;br&gt;+crearServicio(dniTitular: int, tipoServicio: int, nombreServicio: String, notas: String, currencyId: int): Servicio&lt;br&gt;+crearInversion(dni: int, tipoInversion: int, monto: float, dias: int, tasaAnual: float, notas: String, currencyId: int): Inversion"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="700" width="480" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Operaciones / Transacciones -->
+        <mxCell id="B-8"
+          value="// Operaciones / Transacciones&lt;br&gt;+depositar(cuentaId: int, monto: float, notas: String): void&lt;br&gt;+retirar(cuentaId: int, monto: float, notas: String): void&lt;br&gt;+transferir(origenId: int, destinoId: int, monto: float, notas: String): void&lt;br&gt;+pagarServicio(origenId: int, servicioId: int, monto: float, notas: String): void&lt;br&gt;+getTransacciones(): List&lt;Transaccion&gt;"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="820" width="480" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Métodos internos -->
+        <mxCell id="B-9"
+          value="// Métodos internos&lt;br&gt;-convertirMonto(monto: float, origen: Currency, destino: Currency): float&lt;br&gt;-registrarTransaccion(tipo: int, origen: Cuenta, destino: Cuenta, monto: float, notas: String): void"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="960" width="480" height="80" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

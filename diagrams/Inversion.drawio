@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="28.2.3">
+  <diagram name="Inversion" id="Inversion-Page">
+    <mxGraphModel dx="1053" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Título -->
+        <mxCell id="I-1" value="Inversion (extends Cuenta)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="40" width="320" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Constantes + Atributos -->
+        <mxCell id="I-2"
+          value="// Constantes&lt;br&gt;+TIPO_INVERSION_PARTICULAR: int = 30&lt;br&gt;+TIPO_INVERSION_ESPECIAL: int = 31&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-inversionDays: int&lt;br&gt;-inversionMonto: float // capital original&lt;br&gt;-inversionTasa: float // tasa anual (0.50 = 50%)"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="70" width="320" height="170" as="geometry"/>
+        </mxCell>
+
+        <!-- Constructores -->
+        <mxCell id="I-3"
+          value="// Constructores&lt;br&gt;+Inversion(id: int, usuario: Usuario, tipo: int, monto: float, dias: int, tasaAnual: float, notas: String, currency: Currency)"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="240" width="320" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Getters y Setters -->
+        <mxCell id="I-4"
+          value="// Getters y Setters&lt;br&gt;+getInversionDays(): int&lt;br&gt;+setInversionDays(inversionDays: int): void&lt;br&gt;+getInversionMonto(): float&lt;br&gt;+setInversionMonto(inversionMonto: float): void&lt;br&gt;+getInversionTasa(): float&lt;br&gt;+setInversionTasa(inversionTasa: float): void"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="310" width="320" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- Métodos -->
+        <mxCell id="I-5"
+          value="// Métodos&lt;br&gt;+calcularInteresTotal(): float&lt;br&gt;+toString(): String"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="420" y="460" width="320" height="70" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

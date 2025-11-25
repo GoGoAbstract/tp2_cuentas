@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="28.2.3">
+  <diagram name="Transaccion" id="Transaccion-Page">
+    <mxGraphModel dx="1053" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Título -->
+        <mxCell id="T-1" value="Transaccion" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="360" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Constantes + Atributos -->
+        <mxCell id="T-2"
+          value="// Constantes&lt;br&gt;+TIPO_DEPOSITO: int = 1&lt;br&gt;+TIPO_RETIRO: int = 2&lt;br&gt;+TIPO_TRANSFERENCIA: int = 3&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-id: int&lt;br&gt;-tipo: int&lt;br&gt;-origenCuenta: Cuenta // puede ser null para depósito&lt;br&gt;-destinoCuenta: Cuenta // puede ser null para retiro&lt;br&gt;-valor: float&lt;br&gt;-notas: String&lt;br&gt;-transaccionDate: LocalDate"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="70" width="360" height="210" as="geometry"/>
+        </mxCell>
+
+        <!-- Constructores -->
+        <mxCell id="T-3"
+          value="// Constructores&lt;br&gt;+Transaccion(id: int, tipo: int, origenCuenta: Cuenta, destinoCuenta: Cuenta, valor: float, notas: String)"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="360" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Getters y Setters -->
+        <mxCell id="T-4"
+          value="// Getters y Setters&lt;br&gt;+getId(): int&lt;br&gt;+setId(id: int): void&lt;br&gt;+getTipo(): int&lt;br&gt;+setTipo(tipo: int): void&lt;br&gt;+getOrigenCuenta(): Cuenta&lt;br&gt;+setOrigenCuenta(origen: Cuenta): void&lt;br&gt;+getDestinoCuenta(): Cuenta&lt;br&gt;+setDestinoCuenta(destino: Cuenta): void&lt;br&gt;+getValor(): float&lt;br&gt;+setValor(valor: float): void&lt;br&gt;+getNotas(): String&lt;br&gt;+setNotas(notas: String): void&lt;br&gt;+getTransaccionDate(): LocalDate&lt;br&gt;+setTransaccionDate(fecha: LocalDate): void"
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="360" height="230" as="geometry"/>
+        </mxCell>
+
+        <!-- Métodos -->
+        <mxCell id="T-5"
+          value="// Métodos&lt;br&gt;+toString(): String&lt;br&gt;// Nota: si origen/destino tienen distinta Currency,&lt;br&gt;// se debe convertir el monto usando el tipo de cambio actual."
+          style="rounded=0;whiteSpace=wrap;html=1;"
+          parent="1" vertex="1">
+          <mxGeometry x="80" y="570" width="360" height="80" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,239 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Banco" id="Banco-Page">
+    <mxGraphModel dx="1246" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JCT2QUIbzX8MwnMaGtrH-20" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-46" style="endArrow=diamond;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;strokeWidth=1;endSize=20;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eEUhaTnUyxY3wfIcHdhA-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="790" as="sourcePoint" />
+            <mxPoint x="630" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCT2QUIbzX8MwnMaGtrH-21" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-1" style="endArrow=diamond;html=1;rounded=0;endFill=0;endSize=20;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" target="eEUhaTnUyxY3wfIcHdhA-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1530" y="370" as="sourcePoint" />
+            <mxPoint x="920" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCT2QUIbzX8MwnMaGtrH-22" edge="1" parent="1" style="endArrow=diamond;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endFill=0;endSize=20;edgeStyle=orthogonalEdgeStyle;" target="eEUhaTnUyxY3wfIcHdhA-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="950" as="sourcePoint" />
+            <mxPoint x="680" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCT2QUIbzX8MwnMaGtrH-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.001;entryY=0.452;entryDx=0;entryDy=0;endFill=1;endSize=20;edgeStyle=orthogonalEdgeStyle;dashed=1;entryPerimeter=0;" target="eEUhaTnUyxY3wfIcHdhA-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="920" y="972.5" as="sourcePoint" />
+            <mxPoint x="1040" y="862.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCT2QUIbzX8MwnMaGtrH-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;edgeStyle=orthogonalEdgeStyle;endSize=20;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="960" />
+              <mxPoint x="600" y="970" />
+              <mxPoint x="520" y="970" />
+              <mxPoint x="520" y="990" />
+            </Array>
+            <mxPoint x="660" y="959.9900000000002" as="sourcePoint" />
+            <mxPoint x="470" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="610" width="300" x="620" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-6" parent="eEUhaTnUyxY3wfIcHdhA-12" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Usuario" vertex="1">
+          <mxGeometry height="30" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-7" parent="eEUhaTnUyxY3wfIcHdhA-12" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constantes&lt;br&gt;+TIPO_ADMINISTRADOR: int = 1&lt;br&gt;+TIPO_CLIENTE_PARTICULAR: int = 2&lt;br&gt;+TIPO_EMPLEADO: int = 3" vertex="1">
+          <mxGeometry height="90" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-8" parent="eEUhaTnUyxY3wfIcHdhA-12" style="rounded=0;whiteSpace=wrap;html=1;" value="// Atributos&lt;br&gt;-dni: int&lt;br&gt;-tipo: int&lt;br&gt;-nombre: String&lt;br&gt;-apellido: String&lt;br&gt;-password: String&lt;br&gt;-email: String&lt;br&gt;-notas: String" vertex="1">
+          <mxGeometry height="150" width="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-9" parent="eEUhaTnUyxY3wfIcHdhA-12" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructor&lt;br&gt;+Usuario(dni: int, tipo: int, nombre: String, apellido: String, password: String, notas: String)" vertex="1">
+          <mxGeometry height="60" width="300" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-10" parent="eEUhaTnUyxY3wfIcHdhA-12" style="rounded=0;whiteSpace=wrap;html=1;" value="// Getters y Setters&lt;br&gt;+getDni(): int&lt;br&gt;+setDni(dni: int): void&lt;br&gt;+getTipo(): int&lt;br&gt;+setTipo(tipo: int): void&lt;br&gt;+getNombre(): String&lt;br&gt;+setNombre(nombre: String): void&lt;br&gt;+getApellido(): String&lt;br&gt;+setApellido(apellido: String): void&lt;br&gt;+getPassword(): String&lt;br&gt;+setPassword(password: String): void&lt;br&gt;+getEmail(): String&lt;br&gt;+setEmail(email: String): void&lt;br&gt;+getNotas(): String&lt;br&gt;+setNotas(notas: String): void" vertex="1">
+          <mxGeometry height="220" width="300" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-11" parent="eEUhaTnUyxY3wfIcHdhA-12" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos&lt;br&gt;+toString(): String&lt;br&gt;+details(): String" vertex="1">
+          <mxGeometry height="60" width="300" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="590" width="300" x="1320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-1" parent="eEUhaTnUyxY3wfIcHdhA-13" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Cuenta" vertex="1">
+          <mxGeometry height="30" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-2" parent="eEUhaTnUyxY3wfIcHdhA-13" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constantes&lt;br&gt;+TIPO_CAJA_AHORRO: int = 1&lt;br&gt;+TIPO_CUENTA_CORRIENTE: int = 2&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-id: int&lt;br&gt;-usuario: Usuario&lt;br&gt;-tipo: int // incluye caja, cta cte, préstamos, servicios, etc.&lt;br&gt;-saldo: float&lt;br&gt;-notas: String&lt;br&gt;-currency: Currency" vertex="1">
+          <mxGeometry height="200" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-3" parent="eEUhaTnUyxY3wfIcHdhA-13" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructores&lt;br&gt;+Cuenta(id: int, usuario: Usuario, tipo: int, saldoInicial: float, notas: String, currency: Currency)" vertex="1">
+          <mxGeometry height="60" width="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-4" parent="eEUhaTnUyxY3wfIcHdhA-13" style="rounded=0;whiteSpace=wrap;html=1;" value="// Getters y Setters&lt;br&gt;+getId(): int&lt;br&gt;+setId(id: int): void&lt;br&gt;+getUsuario(): Usuario&lt;br&gt;+setUsuario(usuario: Usuario): void&lt;br&gt;+getTipo(): int&lt;br&gt;+setTipo(tipo: int): void&lt;br&gt;+getSaldo(): float&lt;br&gt;+getNotas(): String&lt;br&gt;+setNotas(notas: String): void&lt;br&gt;+getCurrency(): Currency&lt;br&gt;+setCurrency(currency: Currency): void" vertex="1">
+          <mxGeometry height="210" width="300" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-5" parent="eEUhaTnUyxY3wfIcHdhA-13" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos&lt;br&gt;+depositar(monto: float): boolean&lt;br&gt;+retirar(monto: float): boolean&lt;br&gt;+transferir(destino: Cuenta, monto: float): boolean&lt;br&gt;+toString(): String" vertex="1">
+          <mxGeometry height="90" width="300" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="490" width="320" x="1040" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-14" parent="eEUhaTnUyxY3wfIcHdhA-19" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Inversion (extends Cuenta)" vertex="1">
+          <mxGeometry height="30" width="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-15" parent="eEUhaTnUyxY3wfIcHdhA-19" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constantes&lt;br&gt;+TIPO_INVERSION_PARTICULAR: int = 30&lt;br&gt;+TIPO_INVERSION_ESPECIAL: int = 31&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-inversionDays: int&lt;br&gt;-inversionMonto: float // capital original&lt;br&gt;-inversionTasa: float // tasa anual (0.50 = 50%)" vertex="1">
+          <mxGeometry height="170" width="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-16" parent="eEUhaTnUyxY3wfIcHdhA-19" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructores&lt;br&gt;+Inversion(id: int, usuario: Usuario, tipo: int, monto: float, dias: int, tasaAnual: float, notas: String, currency: Currency)" vertex="1">
+          <mxGeometry height="70" width="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-17" parent="eEUhaTnUyxY3wfIcHdhA-19" style="rounded=0;whiteSpace=wrap;html=1;" value="// Getters y Setters&lt;br&gt;+getInversionDays(): int&lt;br&gt;+setInversionDays(inversionDays: int): void&lt;br&gt;+getInversionMonto(): float&lt;br&gt;+setInversionMonto(inversionMonto: float): void&lt;br&gt;+getInversionTasa(): float&lt;br&gt;+setInversionTasa(inversionTasa: float): void" vertex="1">
+          <mxGeometry height="150" width="320" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-18" parent="eEUhaTnUyxY3wfIcHdhA-19" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos&lt;br&gt;+calcularInteresTotal(): float&lt;br&gt;+toString(): String" vertex="1">
+          <mxGeometry height="70" width="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-27" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="490" width="320" x="1430" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-22" parent="eEUhaTnUyxY3wfIcHdhA-27" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Prestamo (extends Cuenta)" vertex="1">
+          <mxGeometry height="30" width="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-23" parent="eEUhaTnUyxY3wfIcHdhA-27" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constantes&lt;br&gt;+TIPO_PRESTAMO_PARTICULAR: int = 20&lt;br&gt;+TIPO_PRESTAMO_ESPECIAL: int = 21&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-prestamoDays: int&lt;br&gt;-prestamoMonto: float // capital original&lt;br&gt;-prestamoTasa: float // tasa anual (0.50 = 50%)" vertex="1">
+          <mxGeometry height="170" width="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-24" parent="eEUhaTnUyxY3wfIcHdhA-27" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructores&lt;br&gt;+Prestamo(id: int, usuario: Usuario, tipo: int, monto: float, dias: int, tasaAnual: float, notas: String, currency: Currency)" vertex="1">
+          <mxGeometry height="70" width="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-25" parent="eEUhaTnUyxY3wfIcHdhA-27" style="rounded=0;whiteSpace=wrap;html=1;" value="// Getters y Setters&lt;br&gt;+getPrestamoDays(): int&lt;br&gt;+setPrestamoDays(prestamoDays: int): void&lt;br&gt;+getPrestamoMonto(): float&lt;br&gt;+setPrestamoMonto(prestamoMonto: float): void&lt;br&gt;+getPrestamoTasa(): float&lt;br&gt;+setPrestamoTasa(prestamoTasa: float): void" vertex="1">
+          <mxGeometry height="150" width="320" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-26" parent="eEUhaTnUyxY3wfIcHdhA-27" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos&lt;br&gt;+calcularInteresTotal(): float&lt;br&gt;+toString(): String" vertex="1">
+          <mxGeometry height="70" width="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-29" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=20;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="eEUhaTnUyxY3wfIcHdhA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-21" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=20;" target="eEUhaTnUyxY3wfIcHdhA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-32" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=0;strokeWidth=1;endSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eEUhaTnUyxY3wfIcHdhA-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="1550" />
+              <mxPoint x="1110" y="1155" />
+              <mxPoint x="1010" y="1155" />
+              <mxPoint x="1010" y="690" />
+              <mxPoint x="720" y="690" />
+            </Array>
+            <mxPoint x="1110" y="1609.9999999999995" as="sourcePoint" />
+            <mxPoint x="700" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-38" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="380" width="320" x="1870" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-33" parent="eEUhaTnUyxY3wfIcHdhA-38" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Servicio (extends Cuenta)" vertex="1">
+          <mxGeometry height="30" width="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-34" parent="eEUhaTnUyxY3wfIcHdhA-38" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constantes&lt;br&gt;+TIPO_SERVICIO_PARTICULAR: int = 10&lt;br&gt;+TIPO_SERVICIO_ONE_TIME: int = 11&lt;br&gt;+TIPO_SERVICIO_RERCORRIDO: int = 12&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-servicio_nombre: String" vertex="1">
+          <mxGeometry height="130" width="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-35" parent="eEUhaTnUyxY3wfIcHdhA-38" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructores&lt;br&gt;+Servicio(id: int, usuario: Usuario, tipo: int, servicio_nombre: String, notas: String, currency: Currency)" vertex="1">
+          <mxGeometry height="70" width="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-36" parent="eEUhaTnUyxY3wfIcHdhA-38" style="rounded=0;whiteSpace=wrap;html=1;" value="// Getters y Setters&lt;br&gt;+getServicio_nombre(): String&lt;br&gt;+setServicio_nombre(servicio_nombre: String): void" vertex="1">
+          <mxGeometry height="90" width="320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-37" parent="eEUhaTnUyxY3wfIcHdhA-38" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos&lt;br&gt;+toString(): String" vertex="1">
+          <mxGeometry height="60" width="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-40" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=20;" target="eEUhaTnUyxY3wfIcHdhA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-41" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;endSize=20;" target="eEUhaTnUyxY3wfIcHdhA-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="412.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-42" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;endSize=20;edgeStyle=orthogonalEdgeStyle;dashed=1;" target="eEUhaTnUyxY3wfIcHdhA-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="1772.5" as="sourcePoint" />
+            <mxPoint x="940" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-43" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-10" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endFill=1;endSize=20;edgeStyle=orthogonalEdgeStyle;dashed=1;" target="eEUhaTnUyxY3wfIcHdhA-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="940" y="1442.5" as="sourcePoint" />
+            <mxPoint x="1340" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-44" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-10" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endFill=1;endSize=20;edgeStyle=orthogonalEdgeStyle;dashed=1;" target="eEUhaTnUyxY3wfIcHdhA-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="930" y="1350" as="sourcePoint" />
+            <mxPoint x="1330" y="1267.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-45" edge="1" parent="1" source="eEUhaTnUyxY3wfIcHdhA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.999;entryY=0.58;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;endSize=20;entryPerimeter=0;" target="eEUhaTnUyxY3wfIcHdhA-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-51" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="610" width="360" x="110" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-46" parent="eEUhaTnUyxY3wfIcHdhA-51" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Transaccion" vertex="1">
+          <mxGeometry height="30" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-47" parent="eEUhaTnUyxY3wfIcHdhA-51" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constantes&lt;br&gt;+TIPO_DEPOSITO: int = 1&lt;br&gt;+TIPO_RETIRO: int = 2&lt;br&gt;+TIPO_TRANSFERENCIA: int = 3&lt;br&gt;&lt;br&gt;// Atributos&lt;br&gt;-id: int&lt;br&gt;-tipo: int&lt;br&gt;-origenCuenta: Cuenta // puede ser null para depósito&lt;br&gt;-destinoCuenta: Cuenta // puede ser null para retiro&lt;br&gt;-valor: float&lt;br&gt;-notas: String&lt;br&gt;-transaccionDate: LocalDate" vertex="1">
+          <mxGeometry height="210" width="360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-48" parent="eEUhaTnUyxY3wfIcHdhA-51" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructores&lt;br&gt;+Transaccion(id: int, tipo: int, origenCuenta: Cuenta, destinoCuenta: Cuenta, valor: float, notas: String)" vertex="1">
+          <mxGeometry height="60" width="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-49" parent="eEUhaTnUyxY3wfIcHdhA-51" style="rounded=0;whiteSpace=wrap;html=1;" value="// Getters y Setters&lt;br&gt;+getId(): int&lt;br&gt;+setId(id: int): void&lt;br&gt;+getTipo(): int&lt;br&gt;+setTipo(tipo: int): void&lt;br&gt;+getOrigenCuenta(): Cuenta&lt;br&gt;+setOrigenCuenta(origen: Cuenta): void&lt;br&gt;+getDestinoCuenta(): Cuenta&lt;br&gt;+setDestinoCuenta(destino: Cuenta): void&lt;br&gt;+getValor(): float&lt;br&gt;+setValor(valor: float): void&lt;br&gt;+getNotas(): String&lt;br&gt;+setNotas(notas: String): void&lt;br&gt;+getTransaccionDate(): LocalDate&lt;br&gt;+setTransaccionDate(fecha: LocalDate): void" vertex="1">
+          <mxGeometry height="230" width="360" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-50" parent="eEUhaTnUyxY3wfIcHdhA-51" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos&lt;br&gt;+toString(): String&lt;br&gt;// Nota: si origen/destino tienen distinta Currency,&lt;br&gt;// se debe convertir el monto usando el tipo de cambio actual." vertex="1">
+          <mxGeometry height="80" width="360" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-61" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="1000" width="480" x="480" y="-370" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-52" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="Banco" vertex="1">
+          <mxGeometry height="30" width="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-53" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Atributos&lt;br&gt;-usuarios: Map&lt;Integer, Usuario&gt;&lt;br&gt;-cuentas: Map&lt;Integer, Cuenta&gt;&lt;br&gt;-monedas: Map&lt;Integer, Currency&gt;&lt;br&gt;-transacciones: List&lt;Transaccion&gt;&lt;br&gt;-nextCuentaId: int&lt;br&gt;-nextTransaccionId: int" vertex="1">
+          <mxGeometry height="130" width="480" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-54" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Constructores&lt;br&gt;+Banco()" vertex="1">
+          <mxGeometry height="40" width="480" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-55" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos - Usuarios&lt;br&gt;+crearUsuario(dni: int, tipo: int, nombre: String, apellido: String, password: String, notas: String): Usuario&lt;br&gt;+eliminarUsuario(dni: int): boolean&lt;br&gt;+getUsuario(dni: int): Usuario&lt;br&gt;+getUsuarios(): Collection&lt;Usuario&gt;&lt;br&gt;+modificarUsuario(dni: int, nuevoTipo: Integer, nuevoNombre: String, nuevoApellido: String, nuevoPassword: String, nuevasNotas: String): boolean&lt;br&gt;+autenticar(dni: int, password: String): Usuario" vertex="1">
+          <mxGeometry height="160" width="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-56" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos - Monedas&lt;br&gt;+crearCurrency(currencyId: int, currentRate: float, nombre: String, notas: String): Currency&lt;br&gt;+eliminarCurrency(currencyId: int): boolean&lt;br&gt;+modificarCurrency(currencyId: int, nuevaTasa: Float, nuevasNotas: String): boolean&lt;br&gt;+getCurrency(currencyId: int): Currency&lt;br&gt;+getMonedas(): Collection&lt;Currency&gt;" vertex="1">
+          <mxGeometry height="140" width="480" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-57" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos - Cuentas&lt;br&gt;+crearCuenta(dni: int, tipo: int, saldoInicial: float, notas: String, currencyId: int): Cuenta&lt;br&gt;+eliminarCuenta(cuentaId: int): boolean&lt;br&gt;+getCuenta(cuentaId: int): Cuenta&lt;br&gt;+getCuentasPorUsuario(dni: int): List&lt;Cuenta&gt;&lt;br&gt;+getTodasLasCuentas(): Collection&lt;Cuenta&gt;&lt;br&gt;+modificarCuenta(cuentaId: int, nuevoTipo: Integer, nuevasNotas: String): boolean" vertex="1">
+          <mxGeometry height="160" width="480" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-58" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos - Préstamos / Servicios / Inversiones&lt;br&gt;+crearPrestamo(dni: int, tipoPrestamo: int, monto: float, dias: int, tasaAnual: float, notas: String, currencyId: int): Prestamo&lt;br&gt;+crearServicio(dniTitular: int, tipoServicio: int, nombreServicio: String, notas: String, currencyId: int): Servicio&lt;br&gt;+crearInversion(dni: int, tipoInversion: int, monto: float, dias: int, tasaAnual: float, notas: String, currencyId: int): Inversion" vertex="1">
+          <mxGeometry height="120" width="480" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-59" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Operaciones / Transacciones&lt;br&gt;+depositar(cuentaId: int, monto: float, notas: String): void&lt;br&gt;+retirar(cuentaId: int, monto: float, notas: String): void&lt;br&gt;+transferir(origenId: int, destinoId: int, monto: float, notas: String): void&lt;br&gt;+pagarServicio(origenId: int, servicioId: int, monto: float, notas: String): void&lt;br&gt;+getTransacciones(): List&lt;Transaccion&gt;" vertex="1">
+          <mxGeometry height="140" width="480" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUhaTnUyxY3wfIcHdhA-60" parent="eEUhaTnUyxY3wfIcHdhA-61" style="rounded=0;whiteSpace=wrap;html=1;" value="// Métodos internos&lt;br&gt;-convertirMonto(monto: float, origen: Currency, destino: Currency): float&lt;br&gt;-registrarTransaccion(tipo: int, origen: Cuenta, destino: Cuenta, monto: float, notas: String): void" vertex="1">
+          <mxGeometry height="80" width="480" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
