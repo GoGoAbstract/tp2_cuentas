@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="28.2.3">
+  <diagram name="Usuario" id="Usuario-Page">
+    <mxGraphModel dx="1053" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Título -->
+        <mxCell id="U-1" value="Usuario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="260" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Atributos -->
+        <mxCell id="U-2" value="// Atributos&lt;br&gt;-dni: int&lt;br&gt;-nombre: String&lt;br&gt;-apellido: String&lt;br&gt;-notas: String" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="70" width="260" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Constructores -->
+        <mxCell id="U-3" value="// Constructores&lt;br&gt;+Usuario(dni: int, nombre: String, apellido: String, notas: String)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Getters y Setters -->
+        <mxCell id="U-4" value="// Getters y Setters&lt;br&gt;+getDni(): int&lt;br&gt;+setDni(dni: int): void&lt;br&gt;+getNombre(): String&lt;br&gt;+setNombre(nombre: String): void&lt;br&gt;+getApellido(): String&lt;br&gt;+setApellido(apellido: String): void&lt;br&gt;+getNotas(): String&lt;br&gt;+setNotas(notas: String): void" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="230" width="260" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Métodos -->
+        <mxCell id="U-5" value="// Métodos&lt;br&gt;+toString(): String" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="260" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
